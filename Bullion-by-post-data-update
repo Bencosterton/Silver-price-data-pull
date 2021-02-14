@@ -1,3 +1,8 @@
 // Tool for importing the live value of silver at bullionbypost.co.uk //
 
 =Dollar((Index(ImportHTML("https://www.bullionbypost.co.uk/silver-price/live-silver-price/","table",1),3,2)))
+
+
+// Tool for importing the live value of gold at bullionbypost.co.uk //
+
+=Dollar((Index(ImportHTML("https://www.bullionbypost.co.uk/gold-price/live-gold-price/","table",2),2,2)))
